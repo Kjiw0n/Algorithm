@@ -1,6 +1,6 @@
 function solution(numbers) {
   // for문 돌려서 a[i]랑 a[j] 더한 값 다 저장한 후, Set 먹이고 sort 하면 된다.
-  // 이렇게 해도 시간복잡도는 O(n^2)
+  // 이렇게 해도 시간복잡도는 O(n^2logn^2)
 
   let arr = [];
 
