@@ -10,7 +10,11 @@ function solution(numbers) {
     }
   }
 
+  console.log(arr);
+
   var answer = [...new Set(arr)];
   answer.sort((a, b) => a - b);
   return answer;
 }
+
+console.log(solution([2, 1, 3, 4, 1]));
